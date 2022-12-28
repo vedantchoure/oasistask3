@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background:radial-gradient(rgb(91, 143, 215),rgb(220, 220, 81));
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    width: 400px;
+    background-color: blueviolet;
+    position: absolute;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 20px 25px rgb(53, 49, 49);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.contain{
+    position: absolute;
+    top: 30%;
+   width: 45%;
+   left: 20%;
+   font-family: voyage;
+   font-weight: 900;
+   font-size: 20px;
+}
+.container{
+    position: absolute;
+    top: 55%;
+    width: 45%;
+    left: 20%;
+    font-family: voyage;
+    font-weight: 900;
+    font-size: 20px;
+}
+input{
+    border-radius: 5px;
+    outline: none;
+}
